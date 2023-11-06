@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("./fonts/MontserratAlternates-SemiBold.ttf") format("ttf"),
+    url("./fonts/MontserratAlternates-Regular.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  width: 1440px;
+  height: 100%;
+}
+
+.hello {
+  color: red;
+  font-family: "Montserrat Alternates";
+  font-size: larger;
+  font-weight: 600;
+  background: url("./images/Avatar.jpg");
+}
